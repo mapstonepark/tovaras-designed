@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ccs/normalize.css" />
+    <link rel="stylesheet" href="ccs/style.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/dbb512821e.js" crossorigin="anonymous"></script>
+    <title>Create an Account</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <div class="head">
+              <i class="fa-solid fa-bars" id="burger"></i> 
+              <h3><a href="index.html" >Tovaras</a></h3>
+          </div>
+          
+          <ul class="hidden" id="menu">
+              <li><a href="index.html">About</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="mobile.html">Get Started</a></li>
+          </ul>
+      </nav>
+  </header>
+    
+      <div class="wrapper">
+<% if (locals.messages.errors) { %>
+        <% messages.errors.forEach( el => { %>
+            <div class="alert alert-danger"><%= el.msg %></div>
+        <% }) %>    
+    <% } %>
+        <section class="main-content">
+          <div class="pop-color">
+            <h1>
+              Create new <br />
+              Account
+            </h1>
+            <span>Already Registered? <a href="#">Login</a></span>
+          </div>
+          <form action="/signup" method= "POST">
+            <label for="name">User Name</label>
+            <input type="text" name="userName" placeholder="Tom Collins" /> <br />
+            <label for="email">Please enter your email</label>
+            <input
+              type="text"
+              name="email"
+              placeholder="Email"
+            />
+            <br />
+            <label for="password">Please enter password</label>
+            <input type="password" name="password" placeholder="Password" />
+	    <input type="password" name="confirmPassword" placeholder="Confirm Password" />
+            <input type="submit" id="submit" value="Sign Up" />
+          </form>
+        </section>
+      </div>
+      <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+:root{
+    --primary-font: 'Roboto', sans-serif;
+    --fancy-font: 'Playfair Display', serif;
+}
+
+body{
+    font-family: var(--primary-font);
+}
+
+/*       Header and Navigation Styling */
+.stamp{
+    flex: 2;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 94vh;
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+    
+}
+
+
+h1,
+h3{
+    font-family: var(--fancy-font);
+}
+
+p{
+    padding: 1.2rem;
+}
+ /* Contact display styling */
+.contacts-homepage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.contactItem{
+    list-style-type: none;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.pop-color{
+    color: rgb(230, 57, 70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-out{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+.block{
+    color: rgb(230, 57, 70);
+}
+
+.pop-color > h1{
+    font-weight: bold;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#submit{
+    background-color: rgb(230, 57, 70);
+    color: white;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+/*  Hamburger Styling */
+
+.hidden{
+    display: none;
+}
+
+.head{
+    display: flex;
+    padding: .5rem 1rem;
+    height: 5vh;
+}
+/*    Styling for Contacts page header   */
+
+.navigation{
+    background-color: rgb(230, 57, 70);
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 1.2rem;
+   
+
+}
+
+.navigation > *{
+    width: 40%;
+    
+}
+
+.navigation a{
+    color: white;
+    
+}
+
+
+
+.head > *{
+    width: 50%;
+}
+
+#menu{
+    width: 100vw;
+    height: 94vh;
+    margin-top: 1vh;;
+    padding: 2rem;
+    list-style-type: none;
+    background-color: rgb(230, 57, 70);
+    color: white;
+    line-height: 3.3rem;
+}
+
+a{
+    color: rgb(29, 53, 87);
+    text-decoration: dotted;
+    
+}
+
+a:hover{
+    color: rgb(29, 53, 87)
+}
+
+a:visted{
+    color: rgb(168, 218, 220)
+}
