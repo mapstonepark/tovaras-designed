@@ -92,13 +92,6 @@ form{
     color: white;
 }
 
-button,
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: 1.2rem;
-}
 
 /*  Hamburger Styling */
 
@@ -162,4 +155,28 @@ a:hover{
 
 a:visted{
     color: rgb(168, 218, 220)
+}
+
+ /* STYLING INPUTS */
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+input{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #eee;
+   
+}
+
+label{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1rem;
 }
