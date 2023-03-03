@@ -47,6 +47,8 @@ p{
 
 .contactItem{
     list-style-type: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
 }
 
 .main-content{
