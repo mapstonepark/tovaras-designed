@@ -21,12 +21,11 @@ h3 {
   font-family: var(--fancy-font);
 }
 
-h3{
-    font-size: 1.3rem;
-    font-weight: bold;
-    letter-spacing: .75ch;
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  letter-spacing: 0.75ch;
 }
-
 
 /* Contact display styling */
 .contacts-homepage {
@@ -42,14 +41,7 @@ h3{
   line-height: 3rem;
 }
 
-/* .main-content{
-    display: flex;
-    flex-direction: column;
-} */
-
-
- /* SIGN UP PAGE STYLING */
-
+/* SIGN UP PAGE STYLING */
 
 .pop-color {
   color: rgb(230, 57, 70);
@@ -58,11 +50,9 @@ h3{
   align-items: center;
 }
 
-
 .block {
   color: rgb(230, 57, 70);
 }
-
 
 form {
   display: flex;
@@ -83,7 +73,7 @@ form {
 
 .head {
   display: flex;
-  padding: .5rem;
+  padding: 0.5rem;
   height: 5vh;
 }
 
