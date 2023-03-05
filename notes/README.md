@@ -1,10 +1,11 @@
 # Personal Contact Management System
 
 ## Header
-+ Bigger Tovaras font thats at top center
-+ increase letter spacing of Tovaras
++ ~~Bigger Tovaras font thats at top center~~
 
-+ make sure Tovaras links to the right page on each page
++ ~~increase letter spacing of Tovaras~~
+
++ ~~make sure Tovaras links to the right page on each page~~
 
 + center Tovaras 
 
