@@ -32,6 +32,11 @@
 	-"create new account" needs to have account centered unstead of flush to left
 
 
+## Functions
++ When you click on contact, redirect to a page that displays that contact information
+
++ Allow additional notes to be added to contact that autostamps with date of new note
+
 ## Deployment
 + get app online so we can test it out in real time 
 
