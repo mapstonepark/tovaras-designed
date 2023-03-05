@@ -14,12 +14,16 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  outline: solid;
 }
 
 h1,
 h3 {
   font-family: var(--fancy-font);
+}
+
+h3{
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 
@@ -79,7 +83,6 @@ form {
 .head {
   display: flex;
   padding: .5rem;
-  background-color: yellow;
   height: 5vh;
 }
 
