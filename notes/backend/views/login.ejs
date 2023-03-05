@@ -17,7 +17,6 @@
     <title>Login Page</title>
 </head>
 <body>
-
     <header>
         <nav>
             <div class="head">
@@ -32,6 +31,7 @@
             </ul>
         </nav>
     </header>
+    <div class="wrapper">
     <% if (locals.messages.errors) { %>
         <% messages.errors.forEach( el => { %>
             <div class="alert alert-danger"><%= el.msg %></div>
@@ -48,5 +48,6 @@
         <input type="submit">
     </form>
     <script type="text/javascript" src="js/main.js"></script>
+</div>
 </body>
 </html>

@@ -14,17 +14,17 @@ body{
 
 .wrapper{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
-    width: 100vw;
-    height: 94vh;
 }
 
 
 .main-container{
     display: flex;
     flex-direction: column;
-    margin-top: 1vh;
+    text-align: center;
+    align-items: center;
     
 }
 
@@ -77,8 +77,6 @@ p{
 
 
 
-
-
 .block{
     color: rgb(230, 57, 70);
 }
@@ -105,11 +103,13 @@ form{
     display: none;
 }
 
+
 .head{
     display: flex;
     padding: .5rem 1rem;
     height: 5vh;
 }
+
 /*    Styling for Contacts page header   */
 
 .navigation{
