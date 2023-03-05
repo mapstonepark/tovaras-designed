@@ -1,58 +1,55 @@
-:root{
-    --primary-font: 'Roboto', sans-serif;
-    --fancy-font: 'Playfair Display', serif;
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --fancy-font: "Playfair Display", serif;
 }
 
-body{
-    font-family: var(--primary-font);
+body {
+  font-family: var(--primary-font);
 }
 
 /*       Header and Navigation Styling */
-.stamp{
-    flex: 2;
+.stamp {
+  flex: 2;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
-
-.main-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    
+.main-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
-
 
 h1,
-h3{
-    font-family: var(--fancy-font);
+h3 {
+  font-family: var(--fancy-font);
 }
 
-h3{
-    font-size: 1.3rem;
+h3 {
+  font-size: 1.3rem;
 }
 
-p{
-    padding: 1.2rem;
+p {
+  padding: 1.2rem;
 }
- /* Contact display styling */
-.contacts-homepage{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+/* Contact display styling */
+.contacts-homepage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
 
-.contactItem{
-    list-style-type: none;
-    font-size: 1.2rem;
-    line-height: 3rem;
+.contactItem {
+  list-style-type: none;
+  font-size: 1.2rem;
+  line-height: 3rem;
 }
 
 /* .main-content{
@@ -60,109 +57,99 @@ p{
     flex-direction: column;
 } */
 
-.pop-color{
-    color: rgb(230, 57, 70);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.pop-color {
+  color: rgb(230, 57, 70);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.find-out{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.find-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-
-
-.block{
-    color: rgb(230, 57, 70);
+.block {
+  color: rgb(230, 57, 70);
 }
 
-.pop-color > h1{
-    font-weight: bold;
+.pop-color > h1 {
+  font-weight: bold;
 }
 
-form{
-    display:flex;
-    flex-direction: column;
-    width: 50vw;
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
 }
 
-#submit{
-    background-color: rgb(230, 57, 70);
-    color: white;
+#submit {
+  background-color: rgb(230, 57, 70);
+  color: white;
 }
-
 
 /*  Hamburger Styling */
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
-
-.head{
-    display: flex;
-    padding: .5rem 1rem;
-    height: 5vh;
+.head {
+  display: flex;
+  padding: 0.5rem 1rem;
+  height: 5vh;
 }
 
 /*    Styling for Contacts page header   */
 
-.navigation{
-    background-color: rgb(230, 57, 70);
-    display: flex;
-    color: white;
-    align-items: center;
-    font-size: 1.2rem;
-
+.navigation {
+  background-color: rgb(230, 57, 70);
+  display: flex;
+  color: white;
+  align-items: center;
+  font-size: 1.2rem;
 }
 
-.navigation > *{
-    width: 40%;
-    
+.navigation > * {
+  width: 40%;
 }
 
-.navigation a{
-    color: white;
-    
+.navigation a {
+  color: white;
 }
 
-
-
-.head > *{
-    width: 50%;
+.head > * {
+  width: 50%;
 }
 
-#menu{
-    width: 100vw;
-    height: 94vh;
-    margin-top: 1vh;;
-    padding: 2rem;
-    list-style-type: none;
-    background-color: rgb(230, 57, 70);
-    color: white;
-    line-height: 3.3rem;
+#menu {
+  width: 100vw;
+  height: 94vh;
+  margin-top: 1vh;
+  padding: 2rem;
+  list-style-type: none;
+  background-color: rgb(230, 57, 70);
+  color: white;
+  line-height: 3.3rem;
 }
 
-a{
-    color: rgb(29, 53, 87);
-    text-decoration: dotted;
-    
+a {
+  color: rgb(29, 53, 87);
+  text-decoration: dotted;
 }
 
-a:hover{
-    color: rgb(29, 53, 87)
+a:hover {
+  color: rgb(29, 53, 87);
 }
 
-a:visted{
-    color: rgb(168, 218, 220)
+a:visted {
+  color: rgb(168, 218, 220);
 }
 
- /* STYLING INPUTS */
+/* STYLING INPUTS */
 
 button,
 input,
@@ -172,16 +159,15 @@ textarea {
   font-size: 1.2rem;
 }
 
-input{
-    border-radius: 20px;
-    padding: 10px;
-    margin: 10px 0;
-    border: 2px solid #eee;
-   
+input {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #eee;
 }
 
-label{
-    text-align: left;
-    padding-left: 10px;
-    font-size: 1rem;
+label {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 1rem;
 }
