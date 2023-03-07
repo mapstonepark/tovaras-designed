@@ -16,14 +16,15 @@
 
 ## CSS
 
-- css variables for colors and fonts
+- ~~css variables for colors and fonts~~
 
 - choose color scheme for site
 
 - add svg background for mobile site
 
 - set up desktop view
-- fill in contacts feed header all the way with color
+
+- ~~fill in contacts feed header all the way with color~~
 
 ## Pages
 
