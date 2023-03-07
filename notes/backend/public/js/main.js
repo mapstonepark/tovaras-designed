@@ -2,6 +2,9 @@ const deleteBtn = document.querySelectorAll('.del')
 const contactItem = document.querySelectorAll('span.not')
 const contactComplete = document.querySelectorAll('span.completed')
 
+
+
+//  HAMBURGER FUNCTIONALITY
 const burger = document.getElementById("burger")
 
 const clickedMenu = document.getElementById('menu')
@@ -20,6 +23,9 @@ function toggleClass(){
         hidden =false;
     }
 }
+
+
+
 Array.from(deleteBtn).forEach((el)=>{
     el.addEventListener('click', deleteContact)
 })
@@ -84,5 +90,21 @@ async function markIncomplete(){
     }catch(err){
         console.log(err)
     }
+}
+
+
+// REDIRECT TO CONTACT INFORMATION PAGE
+
+const contactIndividual = document.getElementsByClassName('firstName')
+    
+contactIndividual.addEventListener('click', contactProfile);
+
+function contactProfile(){
+    console.log('First Name was clicked!')
+
+    
+for (i = 0; i < contactIndividual.length; i++) {
+    contactIndividual[i].addEventListener("click", contactProfile);
+}
 }
 
