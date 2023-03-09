@@ -55,6 +55,7 @@ const User = require('../models/User')
       title: 'Create Account'
     })
   }
+
   
   exports.postSignup = (req, res, next) => {
     const validationErrors = []
