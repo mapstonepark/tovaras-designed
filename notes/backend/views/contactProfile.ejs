@@ -17,8 +17,38 @@
     <script src="https://kit.fontawesome.com/dbb512821e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-   <h1>You are now on contact profile Page</h1>
- 
+    <header>
+        <nav>
+            <div class="navigation">
+                <i class="fa-solid fa-bars" id="burger"></i> 
+                <h3><a href="/contacts" >Tovaras</a></h3>
+            </div>
+            
+            <ul class="hidden" id="menu">
+                <li><a href="/contactProfile">About</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="/signup">Get Started</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contacts-homepage">
+    <h1>Your Contacts</h1>
+    <ul>
+    <% contacts.forEach( el => { %>
+            <li class='contactItem' data-id='<%=el._id%>'>
+                <span class='<%= el.completed === true ? 'completed' : 'firstName'%>'><%= el.contactFirstName %></span>
+                <span class='<%= el.completed === true ? 'completed' : 'lastName'%>'><%= el.contactLastName %></span>
+                <span class='del'> Delete </span>
+            </li>
+    <% }) %>    
+    </ul>
+
+    <h2><%= user.userName %> has <%= left %> contacts.</h2>
+
+   
+    <a href="/contactProfile">Personal page</a>
+    <a href="/logout">Logout</a>
+</div>
     <script src="js/main.js"></script>
 </body>
 </html>

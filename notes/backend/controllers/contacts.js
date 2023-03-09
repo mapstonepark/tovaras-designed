@@ -11,6 +11,7 @@ module.exports = {
             console.log(err)
         }
     },
+   
     createContact: async (req, res)=>{
         try{
             await Contact.create({contactFirstName: req.body.contactFirstName, contactLastName: req.body.contactLastName, contactInfo: req.body.contactInfo, notes:req.body.notes, completed: false, userId: req.user.id})

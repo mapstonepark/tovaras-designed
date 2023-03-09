@@ -5,7 +5,6 @@ const homeController = require('../controllers/home')
 const { ensureAuth, ensureGuest } = require('../middleware/auth')
 
 router.get('/', homeController.getIndex)
-router.get('/contactProfile', homeController.getProfile)
 router.get('/login', authController.getLogin)
 router.post('/login', authController.postLogin)
 router.get('/logout', authController.logout)
@@ -16,4 +15,5 @@ router.post('/signup', authController.postSignup)
 
 
 
-module.exports = router
+
+module.exports = router;
