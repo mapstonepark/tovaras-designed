@@ -10,6 +10,7 @@ const User = require('../models/User')
       title: 'Login'
     })
   }
+
   
   exports.postLogin = (req, res, next) => {
     const validationErrors = []
