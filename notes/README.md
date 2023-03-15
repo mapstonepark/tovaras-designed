@@ -24,6 +24,8 @@
 
 - set up desktop view
 
+- style detailed contact's profile page
+
 - ~~fill in contacts feed header all the way with color~~
 
 ## Pages
