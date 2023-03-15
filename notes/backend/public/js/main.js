@@ -94,3 +94,12 @@ async function markIncomplete(){
 
 // REDIRECT TO CONTACT INFORMATION PAGE
 
+const clickedContact = document.querySelectorAll('.firstName')
+
+
+clickedContact.forEach(firstName => {
+    firstName.addEventListener('click', function handleClick(event){
+        console.log('name was clicked!', event);
+        firstName.setAttribute('style', 'background-color: yellow;');
+    })
+})
