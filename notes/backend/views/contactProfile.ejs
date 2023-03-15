@@ -38,6 +38,8 @@
             <li class='contactItem' data-id='<%=el._id%>'>
                 <span class='<%= el.completed === true ? 'completed' : 'firstName'%>'><%= el.contactFirstName %></span>
                 <span class='<%= el.completed === true ? 'completed' : 'lastName'%>'><%= el.contactLastName %></span>
+                <span class='<%= el.completed === true ? 'completed' : 'contactInfo'%>'><%= el.contactInfo %></span>
+                <span class='<%= el.completed === true ? 'completed' : 'notes'%>'><%= el.notes %></span>
                 <span class='del'> Delete </span>
             </li>
     <% }) %>    

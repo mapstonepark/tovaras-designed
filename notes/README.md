@@ -43,6 +43,9 @@
 
 - Allow additional notes to be added to contact that autostamps with date of new note
 
+- update model for contacts. Want a section for uploading an image and log line where user can have a solid description of the contact like "Significant other of my best friend xxx" or "Senior Solutions Developer who loves World War 2 Documentaries. Met at Julie's Party August 2020"
+
+- Users should be able to update the log line section whenever they want
 ## Deployment
 
 - get app online so we can test it out in real time
