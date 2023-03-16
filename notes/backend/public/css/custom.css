@@ -74,7 +74,7 @@ form {
   width: 50vw;
 }
 
-#submit {
+.submit {
   background-color: var(--primary-red-clr);
   color: white;
 }

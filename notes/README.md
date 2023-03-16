@@ -8,7 +8,7 @@
 
 - ~~make sure Tovaras links to the right page on each page~~
 
-- center Tovaras
+- ~~center Tovaras~~
 
 - increase size of menu icon as well
 
