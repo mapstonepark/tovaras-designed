@@ -12,7 +12,7 @@
 
 - increase size of menu icon as well
 
-- consistency with header from home page -> sign up page -> feedpage -> add Contact page
+- ~~consistency with header from home page -> sign up page -> feedpage -> add Contact page~~
 
 ## CSS
 
