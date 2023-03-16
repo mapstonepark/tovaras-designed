@@ -64,6 +64,10 @@ h3 {
   align-items: center;
 }
 
+.pop-color a{
+  color: var(--accent-green-clr);
+}
+
 .block {
   color: var(--primary-red-clr);
 }
