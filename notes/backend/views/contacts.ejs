@@ -45,19 +45,8 @@
 
     <h2><%= user.userName %> has <%= left %> contacts.</h2>
 
-    <form action="/contacts/createContact" method='POST'>
-        <label for="contactFirstName">First Name</label>
-<input type="text" placeholder="Robin" name='contactFirstName'>
-<label for="contactLastName">Last Name</label>
-        <input type="text" placeholder="Carlyle" name='contactLastName'>
-        <label for="contactInfo">Contact Info</label>
-        <input type="text" placeholder="Best way to reach them" name='contactInfo'>
-        <label for="notes">Notes</label>
-        <input type="text" placeholder="Up for promotion at work" name='notes'>
-        <input type="submit" class="submit">
-    </form>
     <a href="/contactProfile">Personal page</a>
-    <a href="/newContact">Add a contact</a>
+    <a href="/newContact"><i class="fa-solid fa-circle-plus fa-3x"></i></a>
     <a href="/logout">Logout</a>
 </div>
     <script src="js/main.js"></script>
