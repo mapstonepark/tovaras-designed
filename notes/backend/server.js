@@ -10,6 +10,7 @@ const connectDB = require('./config/database')
 const mainRoutes = require('./routes/main')
 const contactRoutes = require('./routes/contacts')
 const profileRoutes = require('./routes/profiles')
+const newProfileRoutes = require('./routes/newProfile')
 
 require('dotenv').config({path: './config/.env'})
 
@@ -43,6 +44,7 @@ app.use(flash())
 app.use('/', mainRoutes)
 app.use('/contacts', contactRoutes)
 app.use('/contactProfile', profileRoutes)
+app.use('/newContact', newProfileRoutes)
  
 app.listen(process.env.PORT, ()=>{
     console.log('Server is running, you better catch it!')

@@ -35,11 +35,11 @@
 
 ## Sign up page
 
-    -~~add margin to bottom of already registered so there is space between it and User Name~~
+  -~~add margin to bottom of already registered so there is space between it and User Name~~
 
-    -~~get rid of Login, after Already Registered. Make already registered a direct link to the login page~~
+  -~~get rid of Login, after Already Registered. Make already registered a direct link to the login page~~
 
-    -~~"create new account" needs to have account centered unstead of flush to left~~
+  -~~"create new account" needs to have account centered unstead of flush to left~~
 
 ## Functions
 

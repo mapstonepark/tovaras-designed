@@ -32,19 +32,8 @@
         </nav>
     </header>
     <div class="contacts-homepage">
-    <h1><%= user.userName %>'s contacts</h1>
-    <ul>
-    <% contacts.forEach( el => { %>
-            <li class='contactItem' data-id='<%=el._id%>'>
-                <span class='<%= el.completed === true ? 'completed' : 'firstName'%>'><%= el.contactFirstName %></span>
-                <span class='<%= el.completed === true ? 'completed' : 'lastName'%>'><%= el.contactLastName %></span>
-                <span class='del'> Delete </span>
-            </li>
-    <% }) %>    
-    </ul>
-
-    <h2><%= user.userName %> has <%= left %> contacts.</h2>
-
+    <h1>Add a new contact</h1>
+    
     <form action="/contacts/createContact" method='POST'>
         <label for="contactFirstName">First Name</label>
 <input type="text" placeholder="Robin" name='contactFirstName'>
@@ -57,7 +46,6 @@
         <input type="submit" class="submit">
     </form>
     <a href="/contactProfile">Personal page</a>
-    <a href="/newContact">Add a contact</a>
     <a href="/logout">Logout</a>
 </div>
     <script src="js/main.js"></script>
