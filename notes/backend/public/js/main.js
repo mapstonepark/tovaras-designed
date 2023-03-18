@@ -94,12 +94,12 @@ async function markIncomplete(){
 
 // REDIRECT TO CONTACT INFORMATION PAGE
 
-const clickedContact = document.querySelectorAll('.firstName')
+const clickedContact = document.querySelectorAll('.contactItem')
 
 
-clickedContact.forEach(firstName => {
-    firstName.addEventListener('click', function handleClick(event){
+clickedContact.forEach(contactItem => {
+    contactItem.addEventListener('click', function handleClick(event){
         console.log('name was clicked!', event);
-        firstName.setAttribute('style', 'background-color: yellow;');
+        contactItem.setAttribute('style', 'background-color: yellow;');
     })
 })
