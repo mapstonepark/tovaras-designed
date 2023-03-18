@@ -30,8 +30,9 @@
 
 ## Pages
 
-- seperate page for add a new contact that has a plus circle at bottom of contacts feed with event listener on element
-  +seperate page for profile when a contact name from feedpage is clicked
+- ~~seperate page for add a new contact that has a plus circle at bottom of contacts feed with event listener on element~~
+
+- seperate page for profile when a contact name from feedpage is clicked
 
 ## Sign up page
 
