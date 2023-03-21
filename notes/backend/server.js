@@ -49,3 +49,9 @@ app.use('/newContact', newProfileRoutes)
 app.listen(process.env.PORT, ()=>{
     console.log('Server is running, you better catch it!')
 })  
+
+
+// API REQUEST
+
+
+   

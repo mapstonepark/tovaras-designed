@@ -92,6 +92,7 @@ async function markIncomplete(){
 }
 
 
+
 // REDIRECT TO CONTACT INFORMATION PAGE
 
 const clickedContact = document.querySelectorAll('.contactItem')

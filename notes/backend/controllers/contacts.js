@@ -53,4 +53,13 @@ module.exports = {
             console.log(err)
         }
     },
+    // nameRequest:  async (req, res)=>{
+    //     try{
+    //         await Contact.findOne({_id:req.body.contactIdFromJSFile})
+    //         console.log('Found that contact!')
+    //         res.json('Here you go!')
+    //     }catch(err){
+    //         console.log(err)
+    //     }
+    // }
 }    

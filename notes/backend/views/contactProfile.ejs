@@ -33,6 +33,8 @@
     </header>
     <div class="contacts-homepage">
     <h1>Your Contacts</h1>
+
+   
     <ul>
     <% contacts.forEach( el => { %>
             <li class='contactItem' data-id='<%=el._id%>'>
@@ -44,6 +46,8 @@
             </li>
     <% }) %>    
     </ul>
+
+  
 
     <h2><%= user.userName %> has <%= left %> contacts.</h2>
 
