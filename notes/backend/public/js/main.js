@@ -104,3 +104,4 @@ clickedContact.forEach(contactItem => {
         contactItem.setAttribute('style', 'background-color: yellow;');
     })
 })
+
