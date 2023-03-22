@@ -22,16 +22,16 @@ module.exports = {
         }
     },
     contactProfile: async (req,res)=>{
-        console.log(req.user)
+        console.log('Contact Profile was clicked!')
         try{
-            const contact = await Contact.findById('req.params.id')
+            const contact = await Contact.findById("req.params.id")
             const contactItems = await Contact.find({userId:req.user.id})
             const itemsLeft = await Contact.countDocuments({userId:req.user.id,completed: false})
             res.render('contactProfile.ejs', {contact: contact})
         }catch(err){
             console.log(err)
         }
-    }
+    },
 }
 
 

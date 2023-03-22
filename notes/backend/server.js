@@ -45,6 +45,7 @@ app.use('/', mainRoutes)
 app.use('/contacts', contactRoutes)
 app.use('/contactProfile', profileRoutes)
 app.use('/newContact', newProfileRoutes)
+app.use('/:id', profileRoutes )
  
 app.listen(process.env.PORT, ()=>{
     console.log('Server is running, you better catch it!')

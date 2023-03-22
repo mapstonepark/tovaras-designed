@@ -5,8 +5,6 @@ const { ensureAuth } = require('../middleware/auth')
 
 router.get('/', ensureAuth, contactsController.getContacts)
 
-// router.get('/api/:name', contactsController.nameRequest)
-
 router.post('/createContact', contactsController.createContact)
 
 router.put('/markComplete', contactsController.markComplete)
