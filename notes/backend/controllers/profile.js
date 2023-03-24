@@ -4,9 +4,9 @@ module.exports = {
     getProfiles: async (req,res)=>{
         console.log(req.user)
         try{
-            const contactItems = await Contact.find({userId:req.user.id})
+            const contactInfo = await Contact.findById(req.params.id)
             const itemsLeft = await Contact.countDocuments({userId:req.user.id,completed: false})
-            res.render('contactProfile.ejs', {contacts: contactItems, left: itemsLeft, user: req.user})
+            res.render('contactProfile.ejs', {contact: contactInfo, left: itemsLeft, user: req.user})
         }catch(err){
             console.log(err)
         }
@@ -22,16 +22,16 @@ module.exports = {
         }
     },
     contactProfile: async (req,res)=>{
-        console.log('Contact Profile was clicked!')
+        console.log(req.params.id)
         try{
-            const contact = await Contact.findById("req.params.id")
-            const contactItems = await Contact.find({userId:req.user.id})
-            const itemsLeft = await Contact.countDocuments({userId:req.user.id,completed: false})
-            res.render('contactProfile.ejs', {contact: contact})
+            const contactInfo = await Contact.findById(req.params.id)
+            const itemsLeft = await Contact.countDocuments
+            res.render('contactProfile.ejs',  {contact: contactInfo, left: itemsLeft, user: req.user})
         }catch(err){
             console.log(err)
         }
     },
+
 }
 
 

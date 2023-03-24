@@ -35,7 +35,8 @@
     <h1><%= user.userName %>'s contacts</h1>
     <ul>
     <% contacts.forEach( el => { %>
-        <a href="/<%= el._id %>"> 
+        <a href="/contacts/<%= el._id %>"> 
+           
             <li class='contactItem' data-id='<%=el._id%>'>
                 <span class='<%= el.completed === true ? 'completed' : 'firstName'%>'><%= el.contactFirstName %></span>
                 <span class='<%= el.completed === true ? 'completed' : 'lastName'%>'><%= el.contactLastName %></span>
