@@ -25,6 +25,10 @@ const ContactSchema = new mongoose.Schema({
     userId: {
       type: String,
       required: true
+    },
+    logLine: {
+      type: String,
+      required: true
     }
   })
   

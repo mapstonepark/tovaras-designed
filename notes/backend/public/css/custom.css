@@ -182,4 +182,8 @@ p{
 padding: 15px;
 }
 
+.del{
+  color: var(--primary-red-clr);
+  font-weight: bold;
+}
 

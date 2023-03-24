@@ -40,14 +40,12 @@
             <li class='contactItem' data-id='<%=el._id%>'>
                 <span class='<%= el.completed === true ? 'completed' : 'firstName'%>'><%= el.contactFirstName %></span>
                 <span class='<%= el.completed === true ? 'completed' : 'lastName'%>'><%= el.contactLastName %></span>
-                <span class='del'> Delete </span></a>
+                <!-- <span class='del'> Delete </span></a> -->
             </li>
     <% }) %>    
     </ul>
 
     <h2><%= user.userName %> has <%= left %> contacts.</h2>
-
-    <a href="/contactProfile">Personal page</a>
     
     <a href="/newContact"><i class="fa-solid fa-circle-plus fa-3x"></i></a>
     <a href="/logout">Logout</a>
