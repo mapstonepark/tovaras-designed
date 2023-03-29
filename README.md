@@ -6,7 +6,7 @@ Tech used: HTML, CSS JavaScript, EJS for templating, MongoDB for database, NodeJ
 
 Started with a basic todo model and increased the schema to include extra details. The front end was inspired by mobile first design as the default way this app is expected to be used is to pull out when you are meeting up or leaving hangouts. Quickly tap out information to log the new detaisl as quickly as possible. Used MVC to keep information seperated and easier to track changes. 
 
-## Optimimazations
+## Optimizations
 Would add a section for an image to represent a contact. 
 Auto-stamp date for new notes added for a contact. 
 Desktop features to easily edit and add tags for contacts
